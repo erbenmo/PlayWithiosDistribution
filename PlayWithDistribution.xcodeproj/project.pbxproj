@@ -378,6 +378,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
 				INFOPLIST_FILE = "PlayWithDistribution/PlayWithDistribution-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
 				INFOPLIST_FILE = "PlayWithDistribution/PlayWithDistribution-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +449,7 @@
 				0EE2AD6016813410003C347F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EE2AD6116813410003C347F /* Build configuration list for PBXNativeTarget "PlayWithDistributionTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +458,7 @@
 				0EE2AD6316813410003C347F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
