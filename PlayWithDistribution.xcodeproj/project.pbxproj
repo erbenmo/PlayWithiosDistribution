@@ -383,11 +383,13 @@
 		0EE2AD5F16813410003C347F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
 				INFOPLIST_FILE = "PlayWithDistribution/PlayWithDistribution-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,6 +397,7 @@
 		0EE2AD6016813410003C347F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -404,6 +407,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
