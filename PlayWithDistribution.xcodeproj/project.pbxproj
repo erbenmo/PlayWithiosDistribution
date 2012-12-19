@@ -18,24 +18,9 @@
 		0EE2AD4016813410003C347F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AD3F16813410003C347F /* Default-568h@2x.png */; };
 		0EE2AD4316813410003C347F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AD4116813410003C347F /* MainStoryboard.storyboard */; };
 		0EE2AD4616813410003C347F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2AD4516813410003C347F /* ViewController.m */; };
-		0EE2AD4E16813410003C347F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE2AD4D16813410003C347F /* SenTestingKit.framework */; };
-		0EE2AD4F16813410003C347F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE2AD2916813410003C347F /* UIKit.framework */; };
-		0EE2AD5016813410003C347F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE2AD2B16813410003C347F /* Foundation.framework */; };
-		0EE2AD5816813410003C347F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AD5616813410003C347F /* InfoPlist.strings */; };
-		0EE2AD5B16813410003C347F /* PlayWithDistributionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2AD5A16813410003C347F /* PlayWithDistributionTests.m */; };
 		0EE2AD7216813967003C347F /* temp_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AD7116813967003C347F /* temp_small.png */; };
 		0EE2AD741681396B003C347F /* temp_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AD731681396B003C347F /* temp_2x.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0EE2AD5116813410003C347F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0EE2AD1C16813410003C347F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0EE2AD2416813410003C347F;
-			remoteInfo = PlayWithDistribution;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0EE2AD2516813410003C347F /* PlayWithDistribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithDistribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,12 +39,7 @@
 		0EE2AD4216813410003C347F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0EE2AD4416813410003C347F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0EE2AD4516813410003C347F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0EE2AD4C16813410003C347F /* PlayWithDistributionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithDistributionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE2AD4D16813410003C347F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0EE2AD5516813410003C347F /* PlayWithDistributionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayWithDistributionTests-Info.plist"; sourceTree = "<group>"; };
-		0EE2AD5716813410003C347F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0EE2AD5916813410003C347F /* PlayWithDistributionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayWithDistributionTests.h; sourceTree = "<group>"; };
-		0EE2AD5A16813410003C347F /* PlayWithDistributionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayWithDistributionTests.m; sourceTree = "<group>"; };
 		0EE2AD7116813967003C347F /* temp_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temp_small.png; path = ../temp_small.png; sourceTree = "<group>"; };
 		0EE2AD731681396B003C347F /* temp_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temp_2x.png; path = ../temp_2x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,16 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EE2AD4816813410003C347F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE2AD4E16813410003C347F /* SenTestingKit.framework in Frameworks */,
-				0EE2AD4F16813410003C347F /* UIKit.framework in Frameworks */,
-				0EE2AD5016813410003C347F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				0EE2AD2F16813410003C347F /* PlayWithDistribution */,
-				0EE2AD5316813410003C347F /* PlayWithDistributionTests */,
 				0EE2AD2816813410003C347F /* Frameworks */,
 				0EE2AD2616813410003C347F /* Products */,
 			);
@@ -102,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				0EE2AD2516813410003C347F /* PlayWithDistribution.app */,
-				0EE2AD4C16813410003C347F /* PlayWithDistributionTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,25 +115,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0EE2AD5316813410003C347F /* PlayWithDistributionTests */ = {
-			isa = PBXGroup;
-			children = (
-				0EE2AD5916813410003C347F /* PlayWithDistributionTests.h */,
-				0EE2AD5A16813410003C347F /* PlayWithDistributionTests.m */,
-				0EE2AD5416813410003C347F /* Supporting Files */,
-			);
-			path = PlayWithDistributionTests;
-			sourceTree = "<group>";
-		};
-		0EE2AD5416813410003C347F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0EE2AD5516813410003C347F /* PlayWithDistributionTests-Info.plist */,
-				0EE2AD5616813410003C347F /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,25 +134,6 @@
 			productName = PlayWithDistribution;
 			productReference = 0EE2AD2516813410003C347F /* PlayWithDistribution.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0EE2AD4B16813410003C347F /* PlayWithDistributionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0EE2AD6116813410003C347F /* Build configuration list for PBXNativeTarget "PlayWithDistributionTests" */;
-			buildPhases = (
-				0EE2AD4716813410003C347F /* Sources */,
-				0EE2AD4816813410003C347F /* Frameworks */,
-				0EE2AD4916813410003C347F /* Resources */,
-				0EE2AD4A16813410003C347F /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EE2AD5216813410003C347F /* PBXTargetDependency */,
-			);
-			name = PlayWithDistributionTests;
-			productName = PlayWithDistributionTests;
-			productReference = 0EE2AD4C16813410003C347F /* PlayWithDistributionTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -227,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				0EE2AD2416813410003C347F /* PlayWithDistribution */,
-				0EE2AD4B16813410003C347F /* PlayWithDistributionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,31 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EE2AD4916813410003C347F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE2AD5816813410003C347F /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0EE2AD4A16813410003C347F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EE2AD2116813410003C347F /* Sources */ = {
@@ -284,23 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EE2AD4716813410003C347F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE2AD5B16813410003C347F /* PlayWithDistributionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0EE2AD5216813410003C347F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0EE2AD2416813410003C347F /* PlayWithDistribution */;
-			targetProxy = 0EE2AD5116813410003C347F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0EE2AD3216813410003C347F /* InfoPlist.strings */ = {
@@ -317,14 +206,6 @@
 				0EE2AD4216813410003C347F /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		0EE2AD5616813410003C347F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0EE2AD5716813410003C347F /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -389,6 +270,7 @@
 				INFOPLIST_FILE = "PlayWithDistribution/PlayWithDistribution-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,42 +289,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		0EE2AD6216813410003C347F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayWithDistribution.app/PlayWithDistribution";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
-				INFOPLIST_FILE = "PlayWithDistributionTests/PlayWithDistributionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		0EE2AD6316813410003C347F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PlayWithDistribution.app/PlayWithDistribution";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
-				INFOPLIST_FILE = "PlayWithDistributionTests/PlayWithDistributionTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -463,15 +312,6 @@
 			buildConfigurations = (
 				0EE2AD5F16813410003C347F /* Debug */,
 				0EE2AD6016813410003C347F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0EE2AD6116813410003C347F /* Build configuration list for PBXNativeTarget "PlayWithDistributionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0EE2AD6216813410003C347F /* Debug */,
-				0EE2AD6316813410003C347F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
