@@ -265,13 +265,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Amazon.com, Inc";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Amazon.com, Inc";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
 				INFOPLIST_FILE = "PlayWithDistribution/PlayWithDistribution-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=*]" = "";
+				PROVISIONING_PROFILE = "B539C272-DB36-44FC-BE11-9FC57D804CA6";
+				"PROVISIONING_PROFILE[sdk=*]" = "B539C272-DB36-44FC-BE11-9FC57D804CA6";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -282,15 +284,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Amazon.com, Inc";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amazon.com, Inc";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Amazon Eurasia Holdings Sarl";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amazon Eurasia Holdings Sarl";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
 				INFOPLIST_FILE = "PlayWithDistribution/PlayWithDistribution-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B539C272-DB36-44FC-BE11-9FC57D804CA6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B539C272-DB36-44FC-BE11-9FC57D804CA6";
+				PROVISIONING_PROFILE = "027E0493-D94A-4F2D-8DB6-533059261B38";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "027E0493-D94A-4F2D-8DB6-533059261B38";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
