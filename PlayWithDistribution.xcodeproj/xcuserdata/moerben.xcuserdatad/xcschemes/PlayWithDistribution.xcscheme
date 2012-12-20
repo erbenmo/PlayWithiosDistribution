@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0EE2AD4B16813410003C347F"
-               BuildableName = "PlayWithDistributionTests.octest"
-               BlueprintName = "PlayWithDistributionTests"
+               BlueprintIdentifier = "0EE2AE0C168399D9003C347F"
+               BuildableName = "PlayWithDistributionTest.octest"
+               BlueprintName = "PlayWithDistributionTest"
                ReferencedContainer = "container:PlayWithDistribution.xcodeproj">
             </BuildableReference>
          </TestableReference>

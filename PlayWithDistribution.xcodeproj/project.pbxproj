@@ -20,6 +20,12 @@
 		0EE2AD4616813410003C347F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2AD4516813410003C347F /* ViewController.m */; };
 		0EE2AD7216813967003C347F /* temp_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AD7116813967003C347F /* temp_small.png */; };
 		0EE2AD741681396B003C347F /* temp_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AD731681396B003C347F /* temp_2x.png */; };
+		0EE2AE0E168399D9003C347F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE2AD4D16813410003C347F /* SenTestingKit.framework */; };
+		0EE2AE0F168399D9003C347F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE2AD2916813410003C347F /* UIKit.framework */; };
+		0EE2AE10168399D9003C347F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE2AD2B16813410003C347F /* Foundation.framework */; };
+		0EE2AE16168399D9003C347F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EE2AE14168399D9003C347F /* InfoPlist.strings */; };
+		0EE2AE19168399D9003C347F /* PlayWithDistributionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2AE18168399D9003C347F /* PlayWithDistributionTest.m */; };
+		0EE2AE2016839ACB003C347F /* RandomTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2AE1F16839ACB003C347F /* RandomTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,14 @@
 		0EE2AD4D16813410003C347F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0EE2AD7116813967003C347F /* temp_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temp_small.png; path = ../temp_small.png; sourceTree = "<group>"; };
 		0EE2AD731681396B003C347F /* temp_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temp_2x.png; path = ../temp_2x.png; sourceTree = "<group>"; };
+		0EE2AE0D168399D9003C347F /* PlayWithDistributionTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayWithDistributionTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE2AE13168399D9003C347F /* PlayWithDistributionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlayWithDistributionTest-Info.plist"; sourceTree = "<group>"; };
+		0EE2AE15168399D9003C347F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EE2AE17168399D9003C347F /* PlayWithDistributionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayWithDistributionTest.h; sourceTree = "<group>"; };
+		0EE2AE18168399D9003C347F /* PlayWithDistributionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayWithDistributionTest.m; sourceTree = "<group>"; };
+		0EE2AE1A168399D9003C347F /* PlayWithDistributionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayWithDistributionTest-Prefix.pch"; sourceTree = "<group>"; };
+		0EE2AE1E16839ACB003C347F /* RandomTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomTest.h; sourceTree = "<group>"; };
+		0EE2AE1F16839ACB003C347F /* RandomTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EE2AE09168399D9003C347F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE2AE0E168399D9003C347F /* SenTestingKit.framework in Frameworks */,
+				0EE2AE0F168399D9003C347F /* UIKit.framework in Frameworks */,
+				0EE2AE10168399D9003C347F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				0EE2AD2F16813410003C347F /* PlayWithDistribution */,
+				0EE2AE11168399D9003C347F /* PlayWithDistributionTest */,
 				0EE2AD2816813410003C347F /* Frameworks */,
 				0EE2AD2616813410003C347F /* Products */,
 			);
@@ -71,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				0EE2AD2516813410003C347F /* PlayWithDistribution.app */,
+				0EE2AE0D168399D9003C347F /* PlayWithDistributionTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +141,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0EE2AE11168399D9003C347F /* PlayWithDistributionTest */ = {
+			isa = PBXGroup;
+			children = (
+				0EE2AE17168399D9003C347F /* PlayWithDistributionTest.h */,
+				0EE2AE18168399D9003C347F /* PlayWithDistributionTest.m */,
+				0EE2AE1E16839ACB003C347F /* RandomTest.h */,
+				0EE2AE1F16839ACB003C347F /* RandomTest.m */,
+				0EE2AE12168399D9003C347F /* Supporting Files */,
+			);
+			path = PlayWithDistributionTest;
+			sourceTree = "<group>";
+		};
+		0EE2AE12168399D9003C347F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EE2AE13168399D9003C347F /* PlayWithDistributionTest-Info.plist */,
+				0EE2AE14168399D9003C347F /* InfoPlist.strings */,
+				0EE2AE1A168399D9003C347F /* PlayWithDistributionTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +182,24 @@
 			productName = PlayWithDistribution;
 			productReference = 0EE2AD2516813410003C347F /* PlayWithDistribution.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0EE2AE0C168399D9003C347F /* PlayWithDistributionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE2AE1B168399D9003C347F /* Build configuration list for PBXNativeTarget "PlayWithDistributionTest" */;
+			buildPhases = (
+				0EE2AE08168399D9003C347F /* Sources */,
+				0EE2AE09168399D9003C347F /* Frameworks */,
+				0EE2AE0A168399D9003C347F /* Resources */,
+				0EE2AE0B168399D9003C347F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayWithDistributionTest;
+			productName = PlayWithDistributionTest;
+			productReference = 0EE2AE0D168399D9003C347F /* PlayWithDistributionTest.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -157,6 +223,7 @@
 			projectRoot = "";
 			targets = (
 				0EE2AD2416813410003C347F /* PlayWithDistribution */,
+				0EE2AE0C168399D9003C347F /* PlayWithDistributionTest */,
 			);
 		};
 /* End PBXProject section */
@@ -176,7 +243,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0EE2AE0A168399D9003C347F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE2AE16168399D9003C347F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE2AE0B168399D9003C347F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EE2AD2116813410003C347F /* Sources */ = {
@@ -186,6 +277,15 @@
 				0EE2AD3616813410003C347F /* main.m in Sources */,
 				0EE2AD3A16813410003C347F /* AppDelegate.m in Sources */,
 				0EE2AD4616813410003C347F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE2AE08168399D9003C347F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE2AE19168399D9003C347F /* PlayWithDistributionTest.m in Sources */,
+				0EE2AE2016839ACB003C347F /* RandomTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +306,14 @@
 				0EE2AD4216813410003C347F /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0EE2AE14168399D9003C347F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE2AE15168399D9003C347F /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,18 +392,50 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Amazon.com, Inc";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amazon.com, Inc";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Amazon Eurasia Holdings Sarl";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Amazon Eurasia Holdings Sarl";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PlayWithDistribution/PlayWithDistribution-Prefix.pch";
 				INFOPLIST_FILE = "PlayWithDistribution/PlayWithDistribution-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B539C272-DB36-44FC-BE11-9FC57D804CA6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B539C272-DB36-44FC-BE11-9FC57D804CA6";
+				PROVISIONING_PROFILE = "027E0493-D94A-4F2D-8DB6-533059261B38";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "027E0493-D94A-4F2D-8DB6-533059261B38";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0EE2AE1C168399D9003C347F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayWithDistributionTest/PlayWithDistributionTest-Prefix.pch";
+				INFOPLIST_FILE = "PlayWithDistributionTest/PlayWithDistributionTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0EE2AE1D168399D9003C347F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlayWithDistributionTest/PlayWithDistributionTest-Prefix.pch";
+				INFOPLIST_FILE = "PlayWithDistributionTest/PlayWithDistributionTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -319,6 +459,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0EE2AE1B168399D9003C347F /* Build configuration list for PBXNativeTarget "PlayWithDistributionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE2AE1C168399D9003C347F /* Debug */,
+				0EE2AE1D168399D9003C347F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
